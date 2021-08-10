@@ -1,2 +1,2 @@
-# jiimenaalcocer.github.io
+# jimenaalcocer.github.io
 Hello!, I'm Jimena 
