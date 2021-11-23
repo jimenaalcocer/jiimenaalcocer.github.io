@@ -1,0 +1,102 @@
+@font-face {
+  font-family: zoon;
+  src: url("fonts/Zoon\ Hoot.otf");
+}
+@font-face {
+  font-family: norma-fixed;
+  src: url("fonts/NORMT___.TTF");
+}
+
+body {
+  width: 800px;
+  margin: 0 auto;
+  font-family: norma-fixed;
+}
+
+.img-fluid {
+  size: 10px;
+}
+
+.navegacion {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+a:link {
+  color: #000;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 900;
+}
+
+a:visited {
+  color: #000;
+}
+
+.inicio-link {
+  font-weight: normal;
+}
+
+.obra {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  font-family: norma-fixed;
+  font-size: medium;
+}
+.obra img:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s;
+}
+
+.contenedor {
+  position: relative;
+}
+
+.autoretrato {
+  position: absolute;
+  right: 300px;
+  top: 200px;
+}
+
+.noche {
+  position: absolute;
+  right: 10px;
+  top: 600px;
+}
+
+.terraza {
+  position: absolute;
+  right: 20px;
+}
+
+.two-color {
+  position: absolute;
+  color: rgb(254, 0, 0);
+  font-size: 72px;
+  font-family: zoon;
+  background-image: url("./img/background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 230px;
+  height: 250px;
+}
+
+.two-color-second {
+  font-family: zoon;
+  height: 70%;
+  position: absolute;
+  color: rgb(0, 0, 0);
+  overflow: hidden;
+}
+
+.linea-negra {
+  background: rgb(0, 0, 0);
+  height: 30px;
+  top: 40px;
+  position: absolute;
+}

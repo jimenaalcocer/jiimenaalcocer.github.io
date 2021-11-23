@@ -1,0 +1,38 @@
+@font-face {
+  font-family: zoon;
+  src: url("fonts/Zoon\ Hoot.otf");
+}
+@font-face {
+  font-family: norma-fixed;
+  src: url("fonts/NORMT___.TTF");
+}
+body {
+  font-family: norma-fixed;
+}
+a:link {
+  color: aliceblue;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 900;
+}
+
+a:visited {
+  color: aliceblue;
+}
+.header {
+  background-color: rgb(37, 37, 37);
+  color: aliceblue;
+}
+.title {
+  background-image: url("../img/vgYellow.jpg");
+  font-family: zoon;
+  font-size: 150%;
+  letter-spacing: 0.5em;
+  -webkit-text-stroke: 2px black;
+}
+.info h2 {
+  color: #c1c959;
+}
+.info {
+  margin-top: 7%;
+}

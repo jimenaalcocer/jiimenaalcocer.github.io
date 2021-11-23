@@ -1,0 +1,75 @@
+@font-face {
+  font-family: zoon;
+  src: url("fonts/Zoon\ Hoot.otf");
+}
+@font-face {
+  font-family: norma-fixed;
+  src: url("fonts/NORMT___.TTF");
+}
+@font-face {
+  font-family: amalfi;
+  src: url("fonts/Amalfi\ Coast.ttf");
+}
+@font-face {
+  font-family: rocket;
+  src: url("fonts/ROCKET\ WILDNESS.ttf");
+}
+@font-face {
+  font-family: sanseriffic;
+  src: url("fonts/Sanseriffic.otf");
+}
+body {
+  font-family: sanseriffic;
+  letter-spacing: 0.2rem;
+  color: black;
+}
+.social a {
+  color: black;
+  text-decoration: none;
+}
+.navbar {
+  background-color: black;
+}
+.navbar a {
+  font-family: amalfi;
+  letter-spacing: 0.5rem;
+  color: aliceblue;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 900;
+}
+.title {
+  color: black;
+  font-size: 750%;
+  font-family: rocket;
+  letter-spacing: 1rem;
+  font-weight: bolder;
+}
+.text {
+  line-height: 1.2rem;
+  font-size: 110%;
+  text-align: justify;
+}
+.gallery img {
+  width: 200px;
+  height: 200px;
+}
+.obra {
+  font-weight: bolder;
+}
+.btn {
+  color: white;
+  background-color: black;
+  font-family: amalfi;
+}
+.btn:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s;
+  background-color: black;
+}
+.deseo {
+  font-family: zoon;
+}
+textarea {
+  background: blue;
+}
