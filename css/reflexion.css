@@ -1,0 +1,25 @@
+@font-face {
+  font-family: sanseriffic;
+  src: url("fonts/Sanseriffic.otf");
+}
+body {
+  font-family: sanseriffic;
+  background-color: rgba(240, 248, 255, 0.829);
+  background-image: url(../img/vgYellow.jpg);
+  background-color: rgb(39, 39, 39);
+  background-blend-mode: overlay;
+}
+.bolder {
+  font-weight: bolder;
+  letter-spacing: 1rem;
+}
+.card-text {
+  font-weight: normal;
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+  text-align: center;
+}
+.card-footer {
+  font-size: 1.2rem;
+  text-align: center;
+}
